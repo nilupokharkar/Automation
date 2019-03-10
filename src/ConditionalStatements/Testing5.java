@@ -10,11 +10,11 @@ int a=10;
 int b=20;
 
 
-System.out.println(name+surname);
+System.out.println(name+surname);  //string+string
 
-System.out.println(a+b+name+surname);
-System.out.println(a+name+b+surname);
-System.out.println(name+(a+b)+surname);
+System.out.println(a+b+name+surname);   //int+int+string+string
+System.out.println(a+name+b+surname);  //int+string+int+string
+System.out.println(name+(a+b)+surname);  //string+(int+int)+string
 	}
 
 }

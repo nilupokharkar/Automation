@@ -6,7 +6,7 @@ public class Mobile extends Telephone{
 	{
 		System.out.println("Texting from Mobile");
 	}
-	public void calling()    //redefined in Method Overriden
+	public void calling()    //redefined in Method Overriden (Telephone)
 	{
 		System.out.println("Calling from Mobile");
 	}
