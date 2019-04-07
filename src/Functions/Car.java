@@ -8,7 +8,7 @@ public class Car
 	
 	public Car(String name,String model,int wheels,String color)  // constructor
 	{
-		this.name=name;  //always points to the instance variable
+		this.name=name;  //always points to the instance variable 
 		this.model=model;
 		this.wheels=wheels;
 		this.color=color;
